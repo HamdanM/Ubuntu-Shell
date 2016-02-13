@@ -10,6 +10,7 @@
 
 #define		LIMIT 256
 
+// For my extra function
 char *historyVal[LIMIT];
 int historySize = 0;
 
@@ -34,7 +35,6 @@ void do_history_command() {
 
 
 // executes functions
-
 /*
  * purpose: run a program passing it arguments
  * returns: status returned via wait, or -1 on error
