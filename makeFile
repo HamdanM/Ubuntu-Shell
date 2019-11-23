@@ -4,4 +4,4 @@ clean:
   rm -f smsh
 
 smsh: smsh.c idris.c jon.c tom.c idris.h jon.h tom.h
-        gcc smsh -o smsh.c idris.c jon.c tom.c idris.h jon.h tom.h
+        gcc -o smsh smsh.c idris.c jon.c tom.c idris.h jon.h tom.h
